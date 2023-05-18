@@ -27,6 +27,6 @@ app.use('/api/chapter',require('./src/api/routes/chapter.routes'))
 console.log(PORT)
 
 // port
-app.listen((PORT),()=>{
-    console.log(`server starting at port ${PORT}`);
+app.listen((9000),()=>{
+    console.log(`server starting at port ${9000}`);
 });
